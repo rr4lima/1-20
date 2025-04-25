@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding-top: 50px;
+  }
+  h1 {
+    color: #2e6db8;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .descricao {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #333;
+  }
+  .tipos {
+    font-size: 20px;
+    margin-top: 30px;
+    color: #4CAF50;
+  }
+  .tipos span {
+    font-weight: bold;
+  }

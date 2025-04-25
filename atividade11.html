@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 11</title>
+    <link rel="stylesheet" href="atividade11.css">
+</head>
+
+<body>
+    <button onclick="Multiplicar()">Clique aqui</button>
+    <script>
+        function Multiplicar() {
+            const num1 = parseFloat(prompt("Digite o primeiro número:"));
+            const num2 = parseFloat(prompt("Digite o segundo número:"));
+
+            if (!isNaN(num1) && !isNaN(num2)) {
+                const mult = num1 * num2;
+                alert("O resultado da multiplicação é: " + mult);
+            } else {
+                alert("Por favor, digite números válidos.");
+            }
+        } 
+    </script>
+
+
+
+
+
+
+</body>
+
+</html>

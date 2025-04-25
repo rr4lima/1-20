@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 6</title>
+    <link rel="stylesheet" href="atividade6.css">
+</head>
+<body>
+    <h1>Exemplo de Constante no JavaScript</h1>
+    <div class="aviso">
+      <p>Uma constante não pode ter seu valor alterado após ser definida.</p>
+    </div>
+    <button onclick="alterarConstante()">Alterar Constante</button>
+  
+    <script>
+      const Constante = 10; 
+  
+      function alterarConstante() {
+        try {
+          Constante = 20; 
+        } catch (erro) {
+          console.log("Erro ao tentar alterar a constante: " + erro); 
+        }
+      }
+    </script>
+  </body>
+  </html>

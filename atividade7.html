@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+    <link rel="stylesheet" href="atividade7.css">
+</head>
+<body>
+    <h1>Exemplo de Declaração com var</h1>
+    <p>Clique no botão para declarar uma variável com var, redeclarar e ver os valores no console.</p>
+    <button onclick="testarVar()">Testar Declaração com var</button>
+  
+    <script>
+      function testarVar() {
+        var a = prompt("Digite um valor: ");
+        var b = a;
+        var a = prompt("Digite o segundo valor: ");
+        var c = a;
+        alert("Valor 1: " + b + " " + "Valor 2: " + c);
+       
+      }
+    </script>
+  </body>
+  </html>

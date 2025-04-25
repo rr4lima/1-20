@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 10</title>
+    <link rel="stylesheet" href="atividade10.css">
+</head>
+<body>
+    <h1>Digite algo:</h1>
+    <input type="text" id="meuTexto" placeholder="Escreva aqui...">
+    <button onclick="mostrarTexto()">Mostrar com alert</button>
+  
+    <script>
+      function mostrarTexto() {
+        const texto = document.getElementById("meuTexto").value;
+        alert("Você digitou: " + texto);
+      }
+    </script>
+  </body>
+  </html>

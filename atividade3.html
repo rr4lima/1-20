@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 3</title>
+    <link rel="stylesheet" href="atividade3.css">
+</head>
+<body>
+    <h1>Calculadora de Soma</h1>
+  <p>Clique no botão para somar dois números.</p>
+  <button onclick="somarNumeros()">Somar</button>
+    
+    <script>
+       function somarNumeros() {
+      const num1 = parseFloat(prompt("Digite o primeiro número:"));
+      const num2 = parseFloat(prompt("Digite o segundo número:"));
+
+      if (!isNaN(num1) && !isNaN(num2)) {
+        const soma = num1 + num2;
+        alert("O resultado da soma é: " + soma);
+      } else {
+        alert("Por favor, digite números válidos.");
+      }
+    } 
+    </script>
+
+</body>
+</html>

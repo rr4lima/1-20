@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 4</title>
+    <link rel="stylesheet" href="atividade4.css">
+</head>
+<body>
+  <h1>Formulário de Dados</h1>
+  <p>Clique no botão para inserir seu nome e idade.</p>
+  <button onclick="obterDados()">Enviar Dados</button>
+
+  <script>
+    function obterDados() {
+      let nome = prompt("Qual é o seu nome?");
+      let idade = prompt("Quantos anos você tem?");
+
+      alert("Olá, " + nome + " Idade: " + idade)
+      console.log("Usuário " + nome + "Idade: " + idade)
+    }
+  </script>
+</body>
+</html>
